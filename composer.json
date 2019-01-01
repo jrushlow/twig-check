@@ -1,0 +1,35 @@
+{
+  "name": "geeshoe/twig-check",
+  "description": "Test project for JetBrains Bug WI-44827",
+  "keywords": [
+    "geeshoe"
+  ],
+  "homepage": "https://www.geeshoe.com",
+  "license": "Apache 2.0",
+  "authors": [
+    {
+      "name": "Jesse Rushlow",
+      "email": "jr@geeshoe.com",
+      "homepage": "http://geeshoe.com",
+      "role": "Developer"
+    }
+  ],
+  "require" : {
+    "php" : "^7.2",
+    "twig/twig": "^2.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Geeshoe\\TwigCheck\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Geeshoe\\TwigCheckTests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.4",
+    "roave/security-advisories": "dev-master"
+  }
+}
